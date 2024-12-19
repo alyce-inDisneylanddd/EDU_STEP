@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: quicksand;
 }
 
 body {
@@ -42,6 +43,10 @@ p{
     align-items: center;
     gap: 10px;
 }
+.line hr {
+    width: 214px;
+    height: auto;
+}
 
 section {
     display: flex;
@@ -59,6 +64,10 @@ section {
     width: 601px;
     height: 617px;
     
+}
+.google_pic img {
+    width: 20px;
+    height: auto;
 }
 
 .left_container{
@@ -133,14 +142,32 @@ input[type="text"]:focus, input[type="password"]:focus {
 
 .color_label {
     color: #133E87;
+    font-weight: 700;
 }
 .star {
     color: #9B1B30;
 }
 .checkbox {
     color: #608BC1;
+    font-weight: 700;
 }
-/* @media (max-width: 780px) {
+@media (max-width: 1024px) {
+    section {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .left img {
+        width: 350px;
+        height: auto;
+    }
+    .google_pic img {
+        width: 20px;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
     .right img {
         display: none;
     }
@@ -148,4 +175,42 @@ input[type="text"]:focus, input[type="password"]:focus {
         align-items: center;
         justify-content: center;
     }
-}  */
+    .google_pic img {
+        width: 20px;
+        height: auto;
+    }
+}
+
+@media (max-width: 490px) {
+    .right img {
+        display: none;
+    }
+    .box_email input, input[type="submit"] , .google {
+        height: 45px;
+        width: 370px;
+    }
+    .box_name input{
+        width: 180px;
+    }
+    .google_pic img {
+        width: 20px;
+        height: auto;
+    }
+    .line hr {
+        width: 165px;
+    }
+    
+    
+}
+@media (max-width: 300px) {
+    .right img {
+        display: none;
+    }
+    .box input {
+        width: 210px;
+    }
+    .google_pic img {
+        width: 20px;
+        height: auto;
+    }
+}

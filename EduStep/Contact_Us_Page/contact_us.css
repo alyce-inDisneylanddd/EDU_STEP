@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Quicksand;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+p{
+    font-family: koho;
+    font-weight: 700;
+    font-size: 22px;
+}
+.line hr {
+    width: 213px;
+}
+
+#logo {
+    width: 40px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 47px;
+    margin-right: 47px;
+}
+
+li a:hover {
+    opacity: 50%;
+}
+
+.about_us_page a {
+    color: #133E87;
+    text-decoration: underline;
+}
+
+.logo, .right_nav, .link_page {
+    display: flex;
+    align-items: center;   
+}
+.logo, .right_nav{
+    gap: 15px;
+}
+
+.logo img {
+    width: 40px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+li a {
+    text-decoration: none;
+    color: #606060;
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.right_nav img {
+    width: 20px;
+    transform: rotate(180);
+}
+
+.right_nav button {
+    width: 90px;
+    height: 36px;
+    border-radius: 10px;
+    font-family: "Quicksand";
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#sign_up {
+    background-color: white;
+    border: 2px solid #133E87;
+    color: #133E87;
+}
+
+#login {
+    background-color: #133E87;
+    border: 2px solid #133E87;
+    color: white;
+}
+.color {
+    font-family: Quicksand;
+    font-size: 50px;
+    font-weight: 700;
+}
+.left_side p {
+    color: #606060;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.left_side , .right_side {
+    flex-grow: 1;
+    margin: 50px;
+}
+
+.left_side p {
+    width: 590px;
+    line-height: 25px;
+}
+.color_h2 {
+    font-size: 34px;
+    font-weight: 700;
+}
+.style_p {
+    color: #606060;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+}
+.vision , .why , .owner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.picture img {
+    width: 182px;
+    height: 187px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.owner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.detail, .left , .right {
+    display: flex;
+  
+}
+
