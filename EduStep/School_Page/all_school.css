@@ -196,10 +196,11 @@ main {
     gap: 2em;
 }
 
-.overview h2, .top_uni h2, .all_uni h2{
+.all_uni h2{
     font-size: 32px;
     font-weight: 600;
     color: #133E87;
+    margin-bottom: 2em;
 }
 
 .overview p {
@@ -216,7 +217,7 @@ main {
 }
 
 /* top universities */
-.top_uni span, .all_uni span {
+.all_uni span {
     color: #9B1B30;
 }
 
@@ -225,6 +226,7 @@ main {
 .uni_display {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 350px);
 }
 .container {
     display: flex;  
@@ -303,29 +305,6 @@ main {
     font-weight: 600;
     margin-right: 0.4em;
 }
-
-/* all universities */
-.all_uni {
-    margin-top: 8em;
-}
-
-.all_uni_title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 3em;
-}
-
-.all_uni_title a {
-    font-size: 20px;
-    font-weight: 600;
-    color: #133E87;
-}
-
-.all_uni_title a:hover {
-    opacity: 70%;
-}
-
 
 /* footer */
 .footer_container {
@@ -427,5 +406,4 @@ main {
     color: #A0A0A0;
     line-height: 2;
 }
-
 
