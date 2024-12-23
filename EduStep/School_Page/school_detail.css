@@ -155,7 +155,7 @@ main {
 }
 
 .container_scholarship {
-    height: 402px;
+    height: 275px;
     width: 100%;
     background: rgba(192, 192, 192, 0.10);
     display: flex;
@@ -170,6 +170,11 @@ main {
     flex-direction: column;
     gap: 1.5em;
 }
+.left_side .title {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
 
 .left_side p {
     font-weight: 600;
@@ -178,12 +183,318 @@ main {
 }
 
 .left_side h1 {
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 600;
+    color: #9B1B30;
+}
+
+.left_side h2 {
+    font-size: 30px;
+    font-weight: 700;
     color: #133E87;
 }
 
 .right_side img {
-    width: auto;
-    height: 312px;
+    width: 220px;
+    height: auto;
+}
+
+/* overview */
+.overview, .top_uni, .school_find_us, .stay_connected{
+    padding-left: 3em;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.overview h2, .school_find_us h2, .top_uni h2, .stay_connected h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #133E87;
+}
+
+.overview p {
+    width: 75%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgba(64, 64, 64, 0.8);
+}
+
+.overview span {
+    color: #9B1B30;
+    font-weight: 700;
+}
+
+/* enroll now */
+
+.enroll_now {
+    width: 143px;
+    height: 53px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #133E87;
+    border: 2px solid #133E87;
+    color: white;
+}
+
+
+/* major container */
+      
+/* - sectipn popular */
+
+.uni_display{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+
+.container {
+    display: flex;  
+    flex-direction: column;
+    gap: 1em;
+}
+
+.container h2 {
+    color: #404040;
+}
+
+.popular_major {
+    display: flex;
+    justify-content: center;
+    width: 257px;
+    height: 308px;
+    border-radius: 30px;
+    border: 1px solid #C0C0C0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.8em;
+}
+
+.major_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.7em;
+}
+
+.major_img {
+    width: 230px;
+    height: auto;
+    border: 1px solid #c0c0c0;
+    border-radius: 15px;
+}
+
+
+
+.major_container h3 {
+    width: 100%;
+    font-size: 24px;
+    color: #606060;
+}
+
+.major_container p {
+    width: 100%;
+    font-size: 11px;
+    color: #A0A0A0;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.button_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1em;
+    margin-top: 0.8em;
+    gap: 0.3em;
+}
+.button_container button {
+    font-size: 12px;
+}
+.heart {
+    width: 30px;
+    height: auto;
+}
+
+
+
+#learn_more {
+    border: 2px solid #133E87;
+    color: white;
+    background-color: #133E87;
+    font-weight: 600;
+    margin-right: 0.4em;
+}
+
+/* find_us */
+.school_find_us, .stay_connected {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.school_find_us p, .stay_connected p {
+    font-size: 18px;
+    color: #606060;
+    font-weight: 600;
+}
+
+.school_contact button {
+    width: 55px;
+    height: 55px;
+    border: none;
+}
+
+.find_us_detail, .school_sm {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.school_contact, .school_fb, .school_ig, .school_telegram {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+button img {
+    width: 28px;
+    height: auto;
+}
+
+
+
+#school_email_button img {
+    width: 25px;
+    height: auto;
+}
+#school_call_button img {
+    width: 25px;
+    height: auto;
+}
+
+/* stay connected */
+.stay_connected {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+#facebook, #Telegram_school {
+    width: 44px;
+    height: auto;
+}
+
+#instagram {
+    width: 48px;
+    height: auto;
+}
+
+
+
+
+/* footer */
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+    background-color: rgba(192, 192, 192, 0.2);
+    margin-top: 11em;
+    padding-left: 7em;
+    padding-right: 10em;
+}
+
+
+.left_footer .logo, .find_us h3 {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.left_footer, .right_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.detail {
+    height: 145px;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.description_footer {
+    font-size: 12px;
+    color: #A0A0A0;
+    font-weight: 600;
+    width: 515px;
+    height: 90px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.SM {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+#fb, #telegram {
+    width: 32px;
+    height: auto;
+}
+
+#ig {
+    width: 36px;
+    height: auto;
+}
+
+
+.gmail, .location, .call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.right_footer h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #133E87;
+}
+.location img {
+    width: 20px;
+    height: auto;
+}
+
+.gmail img {
+    width: 18px;
+    height: auto;
+}
+
+.call img {
+    width: 17px;
+    height: auto;
+}
+
+.call {
+    margin-bottom: 1em;
+}
+.gmail p, .location p, .call p {
+    font-size: 14px;
+    width: 420px;
+    font-weight: 600;
+    color: #A0A0A0;
+    line-height: 2;
 }
